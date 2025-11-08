@@ -2,6 +2,8 @@
   "version": 2,
   "builds": [
     {
+      "installCommand": "npm install",  
+      "buildCommand": "npm run build",   
       "src": "server.js",
       "use": "@vercel/node"
     }
