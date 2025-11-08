@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Home - Climate Solutions</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <%- include('partials/navbar', {page:'/'}) %>
+
+  <div class="hero min-h-[70vh] bg-base-200">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <h1 class="text-5xl font-bold">Welcome to Climate Solutions</h1>
+        <p class="py-6">Explore innovative climate projects that make a difference for a sustainable future.</p>
+        <a href="/solutions/projects" class="btn btn-primary">Explore Projects</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto py-10 px-6">
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-3">
+      <div class="card bg-base-100 shadow-xl">
+        <figure><img src="/images/project1.jpg" alt="Project 1"></figure>
+        <div class="card-body">
+          <h2 class="card-title">Renewable Energy Expansion</h2>
+          <p>Increasing solar and wind energy capacity to reduce global carbon emissions.</p>
+          <div class="card-actions justify-end">
+            <a href="/solutions/projects/1" class="btn btn-primary btn-sm">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-base-100 shadow-xl">
+        <figure><img src="/images/project2.jpg" alt="Project 2"></figure>
+        <div class="card-body">
+          <h2 class="card-title">Sustainable Transport</h2>
+          <p>Electric mobility initiatives promoting clean and efficient public transportation.</p>
+          <div class="card-actions justify-end">
+            <a href="/solutions/projects/2" class="btn btn-primary btn-sm">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg-base-100 shadow-xl">
+        <figure><img src="/images/project3.jpg" alt="Project 3"></figure>
+        <div class="card-body">
+          <h2 class="card-title">Industrial Carbon Capture</h2>
+          <p>Technology-driven solutions to capture and store CO₂ from industrial sources.</p>
+          <div class="card-actions justify-end">
+            <a href="/solutions/projects/3" class="btn btn-primary btn-sm">View Project</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
