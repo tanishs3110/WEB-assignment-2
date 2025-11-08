@@ -10,7 +10,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "build": "npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/main.css --minify",
+    "tw:build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css --watch",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,7 @@
     "url": "https://github.com/tanishs3110/WEB-322/issues"
   },
   "homepage": "https://github.com/tanishs3110/WEB-322#readme",
+
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "daisyui": "^4.12.24",
