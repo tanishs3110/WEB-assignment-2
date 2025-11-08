@@ -1,11 +1,13 @@
 /********************************************************************************
-*  WEB322 – Assignment 01
+* WEB322 – Assignment 02
 *
-*  I declare that this file is majorly my own work in accordance with Seneca's
-*  Academic Integrity Policy and I have taken some help of Chat GPT to understand the 'GET' routes 
-*  to better understand the functions..
+* I declare that this assignment is my own work in accordance with Seneca's
+* Academic Integrity Policy:
 *
-*  Name: Tanish Soni   Student ID: 188999239   Date: 2025-09-29
+* https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
+*
+* Name: ______________________ Student ID: ______________ Date: ______________
+*
 ********************************************************************************/
 
 const express = require("express");
@@ -16,7 +18,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.static("public"));
-app.set("views", path.join(__dirname, "views"));
+app.set('views', __dirname + '/views');
 app.set("view engine", "ejs");
 
 projectData.initialize().then(() => {
