@@ -4,6 +4,7 @@
     {
       "src": "server.js",
       "use": "@vercel/node",
+      "src": "public/css/tailwind.css", "use": "@vercel/static",
       "config": { "includeFiles": [ "dist/" ] }
     }
   ],
