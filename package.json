@@ -16,6 +16,7 @@
   "scripts": {
     "tw:build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css --watch",
     "start": "node server.js",
+    "build:css": "npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/main.css --minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tanish Soni",
