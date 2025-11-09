@@ -24,7 +24,6 @@
     "url": "https://github.com/tanishs3110/WEB-322/issues"
   },
   "homepage": "https://github.com/tanishs3110/WEB-322#readme",
-
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "daisyui": "^4.12.24",
