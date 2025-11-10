@@ -1,12 +1,13 @@
 /********************************************************************************
 * WEB322 – Assignment 02
 *
-* I declare that this assignment is my own work in accordance with Seneca's
-* Academic Integrity Policy:
+* I declare that this assignment is majorly my own work and in accordance with Seneca's
+* Academic Integrity Policy. I have also took major help from Chat GPT for good formating and 
+* vercel deployment.
 *
 * https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
 *
-* Name: ______________________ Student ID: ______________ Date: ______________
+* Name: Tanish Soni   Student ID: 188999239   Date: 09/11/2025
 *
 ********************************************************************************/
 
